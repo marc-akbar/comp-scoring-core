@@ -1,18 +1,34 @@
 {
-  "name": "core",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "nodemon src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "type": "module",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.2",
-    "nodemon": "^2.0.15"
-  }
+    "name": "core",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "prettier": {
+        "trailingComma": "es5",
+        "tabWidth": 4,
+        "singleQuote": true,
+        "printWidth": 240
+    },
+    "type": "module",
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^14.3.2",
+        "express": "^4.17.2",
+        "mysql": "^2.18.1",
+        "pino": "^7.6.4",
+        "pino-caller": "^3.2.0",
+        "pino-prettier": "^1.0.1",
+        "pino-pretty": "^7.5.1",
+        "prettier": "^2.5.1",
+        "util": "^0.12.4"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
 }
